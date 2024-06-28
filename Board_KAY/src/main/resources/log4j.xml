@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration PUBLIC "-//APACHE//DTD LOG4J 1.2//EN" 
+	"http://logging.apache.org/log4j/1.2/apidocs/org/apache/log4j/xml/doc-files/log4j.dtd">
+<!-- preferences -> xml 외부 링크 다운로드 켜주기 -->
+<log4j:configuration
+	xmlns:log4j="http://jakarta.apache.org/log4j/">
+
+	<!-- appender 영역: 로그를 출력할 유형(name), 출력 형태(PatternLayout) 등을 설정하는 태그 (객체) -->
+	<!-- 이름이 console, ConsoleAppender: 콘솔에 출력을 해주는 객체 -->
+	<appender name="console"
+		class="org.apache.log4j.ConsoleAppender">
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern"
+				value="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n" />
+		</layout>
+	</appender>
+
+	<!-- 이름이 file: IO를 통해서 파일을 저장해주는 객체(RollingFileAppender) 하루 한 번씩 파일을 새로 
+		생성 -->
+	<appender name="file"
+		class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="./logs/log4j.log" />
+		<param name="DatePattern" value="'.'yyyyMMdd" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern"
+				value="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n" />
+		</layout>
+	</appender>
+
+	<!-- logger 영역 -->
+	<!-- 무엇을 출력할 건지 이야기 name: 로그를 출력할 대상(Class), value: log level -->
+	<logger name="java.sql.Connection">
+		<level value="TRACE" />
+	</logger>
+
+	<logger name="java.sql.PreparedStatement">
+		<level value="TRACE" />
+	</logger>
+
+	<logger name="java.sql.ResultSet">
+		<level value="TRACE" />
+	</logger>
+
+	<!-- root 영역 -->
+	<root>
+		<level value="TRACE" />
+		<appender-ref ref="console" /> <!-- console -->
+		<appender-ref ref="file" /> <!-- file -->
+	</root>
+</log4j:configuration>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.min.edu.model.EduBoardDaoImpl">
+<!-- EduBoardDto -->
+
+	<!-- 전체 조회 -->
+	<select id="allSelect" parameterType="java.util.Map" resultType="EduBoardDto">
+		SELECT SEQ,ID ,TITLE ,
+	  		 CONTENT , CREATEAT, DELFLAG
+		FROM (
+			SELECT SEQ,ID ,TITLE ,
+				   CONTENT , TO_CHAR(CREATEAT, 'YYYY-MM-DD') CREATEAT, DELFLAG ,
+				   ROW_NUMBER() OVER(ORDER BY SEQ DESC) RN
+				FROM EDUBOARD e )
+		WHERE RN BETWEEN #{first} AND #{last}
+	</select>
+	
+	<!-- 글의 전체 갯수 -->
+	<select id="countBoard" resultType="java.lang.Integer">
+		SELECT COUNT(*) 
+		FROM EDUBOARD e 
+	</select>
+	
+	<!-- 내 글만 조회 -->
+	<select id="selectMyPost" parameterType="java.util.Map" resultType="EduBoardDto" >
+		SELECT SEQ,ID ,TITLE ,
+		   CONTENT , CREATEAT, DELFLAG
+		FROM (
+			SELECT SEQ,ID ,TITLE ,
+				   CONTENT , TO_CHAR(CREATEAT, 'YYYY-MM-DD') CREATEAT, DELFLAG ,
+				   ROW_NUMBER() OVER(ORDER BY SEQ DESC) RN
+				FROM EDUBOARD e )
+		WHERE (RN BETWEEN #{first} AND #{last}) AND ID = #{id} AND DELFLAG = 'N'
+	</select>
+	
+	<!-- 내 글의 전체 갯수 -->
+	<select id="countMyPost" parameterType="java.lang.String" resultType="java.lang.Integer">
+		SELECT COUNT(*) 
+		FROM EDUBOARD e 
+		WHERE ID = 'HAPPY00' AND DELFLAG = 'N'
+	</select>
+	
+	<!-- 상세 조회 -->
+	<select id="detailSelect" parameterType="java.lang.String" resultType="EduBoardDto">
+		SELECT SEQ, ID, TITLE , CONTENT , DELFLAG , TO_CHAR(CREATEAT, 'YYYY-MM-DD') CREATEAT , NAME
+		FROM EDUBOARD e JOIN EMPINFO e2 
+		USING(ID)
+		WHERE SEQ = #{seq}
+	</select>
+	
+	<!-- 입력 -->
+	<insert id="insertBoard" parameterType="java.util.Map">
+		<selectKey keyProperty="seq" resultType="java.lang.Integer" order="BEFORE">
+			SELECT NVL(MAX(SEQ)+1,1) FROM EDUBOARD e
+		</selectKey>
+		INSERT INTO EDUBOARD e (SEQ, ID, TITLE, CONTENT, 
+						DELFLAG, CREATEAT)
+		VALUES(#{seq}, #{id}, #{title}, 
+				#{content}, 'N', SYSDATE)
+	</insert>
+	
+	<!-- 수정 -->
+	<update id="updateBoard" parameterType="java.util.Map">
+		UPDATE EDUBOARD SET CONTENT = #{content} WHERE SEQ = #{seq}
+	</update>
+	
+	<!-- 삭제 -->
+	<delete id="deleteBoard" parameterType="java.lang.String">
+		UPDATE EDUBOARD SET DELFLAG  = 'Y' WHERE SEQ = #{seq}
+	</delete>
+	
+	<!-- 다중 삭제 -->
+	<delete id="multiDeleteBoard" parameterType="java.util.List">
+		UPDATE EDUBOARD SET DELFLAG  = 'Y' WHERE SEQ IN
+		<foreach collection="list" item="seq" open="(" separator="," close=")">
+			#{seq}
+		</foreach>
+	</delete>
+	
+	
+</mapper>

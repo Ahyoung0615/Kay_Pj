@@ -1,0 +1,356 @@
+2024-06-18 14:48:50 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-18 14:48:50 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 14:48:50 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 14:48:50 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 14:48:50 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 14:48:50 INFO  SqlSessionFactoryManager:21 - SqlSessionFactory 생성
+2024-06-18 14:59:44 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-18 14:59:44 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 14:59:44 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 14:59:44 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 14:59:44 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 14:59:44 INFO  SqlSessionFactoryManager:21 - SqlSessionFactory 생성
+2024-06-18 15:04:34 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-18 15:04:34 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:04:34 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:04:34 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:04:34 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:04:34 INFO  SqlSessionFactoryManager:21 - SqlSessionFactory 생성
+2024-06-18 15:11:57 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-18 15:11:57 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:11:57 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:11:57 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:11:57 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:11:57 INFO  SqlSessionFactoryManager:21 - SqlSessionFactory 생성
+2024-06-18 15:11:57 INFO  EmpInfoDaoImpl:21 - EmpInfoDto login {password=HAPPY00, id=HAPPY00}
+2024-06-18 15:11:57 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-18 15:11:57 DEBUG PooledDataSource:448 - Created connection 2109839984.
+2024-06-18 15:11:57 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@7dc19a70]
+2024-06-18 15:11:57 DEBUG login:137 - ==>  Preparing: SELECT ID, PASSWORD , NAME , ENABLE , AUTH FROM EMPINFO e WHERE ID = ? AND PASSWORD = ?
+2024-06-18 15:11:57 DEBUG login:137 - ==> Parameters: HAPPY00(String), HAPPY00(String)
+2024-06-18 15:11:57 TRACE login:143 - <==    Columns: ID, PASSWORD, NAME, ENABLE, AUTH
+2024-06-18 15:11:57 TRACE login:143 - <==        Row: HAPPY00, HAPPY00, HAPPY00, Y, USER
+2024-06-18 15:11:57 DEBUG login:137 - <==      Total: 1
+2024-06-18 15:13:22 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-18 15:13:22 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:13:22 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:13:22 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:13:22 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:13:22 INFO  SqlSessionFactoryManager:21 - SqlSessionFactory 생성
+2024-06-18 15:13:22 INFO  EmpInfoDaoImpl:21 - EmpInfoDto login {password=HAPPY00, id=HAPPY00}
+2024-06-18 15:13:22 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-18 15:13:22 DEBUG PooledDataSource:448 - Created connection 2109839984.
+2024-06-18 15:13:22 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@7dc19a70]
+2024-06-18 15:13:22 DEBUG login:137 - ==>  Preparing: SELECT ID, PASSWORD , NAME , ENABLE , AUTH FROM EMPINFO e WHERE ID = ? AND PASSWORD = ? AND ENABLE = 'Y'
+2024-06-18 15:13:22 DEBUG login:137 - ==> Parameters: HAPPY00(String), HAPPY00(String)
+2024-06-18 15:13:22 TRACE login:143 - <==    Columns: ID, PASSWORD, NAME, ENABLE, AUTH
+2024-06-18 15:13:22 TRACE login:143 - <==        Row: HAPPY00, HAPPY00, HAPPY00, Y, USER
+2024-06-18 15:13:22 DEBUG login:137 - <==      Total: 1
+2024-06-18 15:13:33 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-18 15:13:33 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:13:33 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:13:33 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:13:33 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:13:33 INFO  SqlSessionFactoryManager:21 - SqlSessionFactory 생성
+2024-06-18 15:13:33 INFO  EmpInfoDaoImpl:21 - EmpInfoDto login {password=HAPPY, id=HAPPY}
+2024-06-18 15:13:33 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-18 15:13:33 DEBUG PooledDataSource:448 - Created connection 2109839984.
+2024-06-18 15:13:33 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@7dc19a70]
+2024-06-18 15:13:33 DEBUG login:137 - ==>  Preparing: SELECT ID, PASSWORD , NAME , ENABLE , AUTH FROM EMPINFO e WHERE ID = ? AND PASSWORD = ? AND ENABLE = 'Y'
+2024-06-18 15:13:33 DEBUG login:137 - ==> Parameters: HAPPY(String), HAPPY(String)
+2024-06-18 15:13:33 DEBUG login:137 - <==      Total: 0
+2024-06-18 15:13:40 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-18 15:13:40 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:13:40 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:13:40 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:13:40 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:13:40 INFO  SqlSessionFactoryManager:21 - SqlSessionFactory 생성
+2024-06-18 15:13:40 INFO  EmpInfoDaoImpl:21 - EmpInfoDto login {password=HAPPY00, id=HAPPY00}
+2024-06-18 15:13:40 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-18 15:13:41 DEBUG PooledDataSource:448 - Created connection 2109839984.
+2024-06-18 15:13:41 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@7dc19a70]
+2024-06-18 15:13:41 DEBUG login:137 - ==>  Preparing: SELECT ID, PASSWORD , NAME , ENABLE , AUTH FROM EMPINFO e WHERE ID = ? AND PASSWORD = ? AND ENABLE = 'Y'
+2024-06-18 15:13:41 DEBUG login:137 - ==> Parameters: HAPPY00(String), HAPPY00(String)
+2024-06-18 15:13:41 TRACE login:143 - <==    Columns: ID, PASSWORD, NAME, ENABLE, AUTH
+2024-06-18 15:13:41 TRACE login:143 - <==        Row: HAPPY00, HAPPY00, HAPPY00, Y, USER
+2024-06-18 15:13:41 DEBUG login:137 - <==      Total: 1
+2024-06-18 15:25:29 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-18 15:25:29 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:25:29 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:25:29 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:25:29 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:25:29 INFO  SqlSessionFactoryManager:21 - SqlSessionFactory 생성
+2024-06-18 15:25:32 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-18 15:25:32 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:25:32 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:25:32 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:25:32 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:25:32 INFO  SqlSessionFactoryManager:21 - SqlSessionFactory 생성
+2024-06-18 15:25:32 INFO  EmpInfoDaoImpl:21 - EmpInfoDto login {password=HAPPY00, id=HAPPY00}
+2024-06-18 15:25:32 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-18 15:25:32 DEBUG PooledDataSource:448 - Created connection 925973605.
+2024-06-18 15:25:32 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@37313c65]
+2024-06-18 15:25:32 DEBUG login:137 - ==>  Preparing: SELECT ID, PASSWORD , NAME , ENABLE , AUTH FROM EMPINFO e WHERE ID = ? AND PASSWORD = ? AND ENABLE = 'Y'
+2024-06-18 15:25:32 DEBUG login:137 - ==> Parameters: HAPPY00(String), HAPPY00(String)
+2024-06-18 15:25:32 TRACE login:143 - <==    Columns: ID, PASSWORD, NAME, ENABLE, AUTH
+2024-06-18 15:25:32 TRACE login:143 - <==        Row: HAPPY00, HAPPY00, HAPPY00, Y, USER
+2024-06-18 15:25:32 DEBUG login:137 - <==      Total: 1
+2024-06-18 15:26:38 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-18 15:26:38 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:26:38 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:26:38 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:26:38 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:26:38 INFO  SqlSessionFactoryManager:21 - SqlSessionFactory 생성
+2024-06-18 15:26:38 INFO  EduBoardDaoImpl:22 - EduBoardDaoImpl allSelect
+2024-06-18 15:26:38 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-18 15:26:38 DEBUG PooledDataSource:448 - Created connection 508512860.
+2024-06-18 15:26:38 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@1e4f4a5c]
+2024-06-18 15:26:38 DEBUG allSelect:137 - ==>  Preparing: SELECT SEQ, ID, TITLE , DELFLAG , CREATEAT , NAME FROM EDUBOARD e JOIN EMPINFO e2 USING(ID)
+2024-06-18 15:26:38 DEBUG allSelect:137 - ==> Parameters: 
+2024-06-18 15:26:38 TRACE allSelect:143 - <==    Columns: SEQ, ID, TITLE, DELFLAG, CREATEAT, NAME
+2024-06-18 15:26:38 TRACE allSelect:143 - <==        Row: 4, HAPPY, Query Test, N, 2024-06-18 14:56:58, 해피
+2024-06-18 15:26:38 TRACE allSelect:143 - <==        Row: 3, HAPPY00, Query Test, N, 2024-06-18 14:39:37, HAPPY00
+2024-06-18 15:26:38 TRACE allSelect:143 - <==        Row: 1, HAPPY00, Query Test, N, 2024-06-18 14:39:10, HAPPY00
+2024-06-18 15:26:38 TRACE allSelect:143 - <==        Row: 2, HAPPY00, Query Test, Y, 2024-06-18 14:39:36, HAPPY00
+2024-06-18 15:26:38 DEBUG allSelect:137 - <==      Total: 4
+2024-06-18 15:28:21 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-18 15:28:21 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:28:21 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:28:21 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:28:21 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:28:21 INFO  SqlSessionFactoryManager:21 - SqlSessionFactory 생성
+2024-06-18 15:28:21 INFO  EduBoardDaoImpl:22 - EduBoardDaoImpl allSelect
+2024-06-18 15:28:21 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-18 15:28:22 DEBUG PooledDataSource:448 - Created connection 508512860.
+2024-06-18 15:28:22 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@1e4f4a5c]
+2024-06-18 15:28:22 DEBUG allSelect:137 - ==>  Preparing: SELECT SEQ, ID, TITLE , DELFLAG , TO_CHAR(CREATEAT, 'YYYY-MM-DD') CREATEAT , NAME FROM EDUBOARD e JOIN EMPINFO e2 USING(ID)
+2024-06-18 15:28:22 DEBUG allSelect:137 - ==> Parameters: 
+2024-06-18 15:28:22 TRACE allSelect:143 - <==    Columns: SEQ, ID, TITLE, DELFLAG, CREATEAT, NAME
+2024-06-18 15:28:22 TRACE allSelect:143 - <==        Row: 4, HAPPY, Query Test, N, 2024-06-18, 해피
+2024-06-18 15:28:22 TRACE allSelect:143 - <==        Row: 3, HAPPY00, Query Test, N, 2024-06-18, HAPPY00
+2024-06-18 15:28:22 TRACE allSelect:143 - <==        Row: 1, HAPPY00, Query Test, N, 2024-06-18, HAPPY00
+2024-06-18 15:28:22 TRACE allSelect:143 - <==        Row: 2, HAPPY00, Query Test, Y, 2024-06-18, HAPPY00
+2024-06-18 15:28:22 DEBUG allSelect:137 - <==      Total: 4
+2024-06-18 15:36:51 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-18 15:36:51 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:36:51 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:36:51 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:36:51 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:36:51 INFO  SqlSessionFactoryManager:21 - SqlSessionFactory 생성
+2024-06-18 15:36:51 INFO  EduBoardDaoImpl:30 - EduBoardDaoImpl detailSelect
+2024-06-18 15:36:51 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-18 15:36:51 DEBUG PooledDataSource:448 - Created connection 508512860.
+2024-06-18 15:36:51 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@1e4f4a5c]
+2024-06-18 15:36:51 DEBUG detailSelect:137 - ==>  Preparing: SELECT SEQ, ID, TITLE , CONTENT , DELFLAG , TO_CHAR(CREATEAT, 'YYYY-MM-DD') CREATEAT , NAME FROM EDUBOARD e JOIN EMPINFO e2 USING(ID) WHERE SEQ = ?
+2024-06-18 15:36:51 DEBUG detailSelect:137 - ==> Parameters: 1(String)
+2024-06-18 15:36:51 TRACE detailSelect:143 - <==    Columns: SEQ, ID, TITLE, CONTENT, DELFLAG, CREATEAT, NAME
+2024-06-18 15:36:51 TRACE detailSelect:143 - <==        Row: 1, HAPPY00, Query Test, Query Update Test, N, 2024-06-18, HAPPY00
+2024-06-18 15:36:51 DEBUG detailSelect:137 - <==      Total: 1
+2024-06-18 15:40:00 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-18 15:40:00 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:40:00 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:40:00 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:40:00 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:40:00 INFO  SqlSessionFactoryManager:21 - SqlSessionFactory 생성
+2024-06-18 15:40:00 INFO  EduBoardDaoImpl:33 - EduBoardDaoImpl detailSelect
+2024-06-18 15:40:00 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-18 15:40:01 DEBUG PooledDataSource:448 - Created connection 508512860.
+2024-06-18 15:40:01 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@1e4f4a5c]
+2024-06-18 15:40:01 DEBUG detailSelect:137 - ==>  Preparing: SELECT SEQ, ID, TITLE , CONTENT , DELFLAG , TO_CHAR(CREATEAT, 'YYYY-MM-DD') CREATEAT , NAME FROM EDUBOARD e JOIN EMPINFO e2 USING(ID) WHERE SEQ = ?
+2024-06-18 15:40:01 DEBUG detailSelect:137 - ==> Parameters: 1(String)
+2024-06-18 15:40:01 TRACE detailSelect:143 - <==    Columns: SEQ, ID, TITLE, CONTENT, DELFLAG, CREATEAT, NAME
+2024-06-18 15:40:01 TRACE detailSelect:143 - <==        Row: 1, HAPPY00, Query Test, Query Update Test, N, 2024-06-18, HAPPY00
+2024-06-18 15:40:01 DEBUG detailSelect:137 - <==      Total: 1
+2024-06-18 15:40:01 INFO  EduBoardDaoImpl:41 - EduBoardDaoImpl insertBoard
+2024-06-18 15:40:01 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-18 15:40:01 DEBUG PooledDataSource:448 - Created connection 1863100050.
+2024-06-18 15:40:01 DEBUG insertBoard!selectKey:137 - ==>  Preparing: SELECT NVL(MAX(SEQ)+1,1) FROM EDUBOARD e
+2024-06-18 15:40:01 DEBUG insertBoard!selectKey:137 - ==> Parameters: 
+2024-06-18 15:40:01 TRACE insertBoard!selectKey:143 - <==    Columns: NVL(MAX(SEQ)+1,1)
+2024-06-18 15:40:01 TRACE insertBoard!selectKey:143 - <==        Row: 5
+2024-06-18 15:40:01 DEBUG insertBoard!selectKey:137 - <==      Total: 1
+2024-06-18 15:40:01 DEBUG insertBoard:137 - ==>  Preparing: INSERT INTO EDUBOARD e (SEQ, ID, TITLE, CONTENT, DELFLAG, CREATEAT) VALUES(?, ?, ?, ?, 'N', SYSDATE)
+2024-06-18 15:40:01 DEBUG insertBoard:137 - ==> Parameters: 5(Integer), HAPPY00(String), Insert_JUnitTest(String), Insert_JUnitTest(String)
+2024-06-18 15:40:01 DEBUG insertBoard:137 - <==    Updates: 1
+2024-06-18 15:43:30 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-18 15:43:30 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:43:30 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:43:30 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:43:30 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:43:30 INFO  SqlSessionFactoryManager:21 - SqlSessionFactory 생성
+2024-06-18 15:43:30 INFO  EduBoardDaoImpl:33 - EduBoardDaoImpl detailSelect
+2024-06-18 15:43:30 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-18 15:43:31 DEBUG PooledDataSource:448 - Created connection 508512860.
+2024-06-18 15:43:31 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@1e4f4a5c]
+2024-06-18 15:43:31 DEBUG detailSelect:137 - ==>  Preparing: SELECT SEQ, ID, TITLE , CONTENT , DELFLAG , TO_CHAR(CREATEAT, 'YYYY-MM-DD') CREATEAT , NAME FROM EDUBOARD e JOIN EMPINFO e2 USING(ID) WHERE SEQ = ?
+2024-06-18 15:43:31 DEBUG detailSelect:137 - ==> Parameters: 1(String)
+2024-06-18 15:43:31 TRACE detailSelect:143 - <==    Columns: SEQ, ID, TITLE, CONTENT, DELFLAG, CREATEAT, NAME
+2024-06-18 15:43:31 TRACE detailSelect:143 - <==        Row: 1, HAPPY00, Query Test, Query Update Test, N, 2024-06-18, HAPPY00
+2024-06-18 15:43:31 DEBUG detailSelect:137 - <==      Total: 1
+2024-06-18 15:43:31 INFO  EduBoardDaoImpl:41 - EduBoardDaoImpl insertBoard
+2024-06-18 15:43:31 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-18 15:43:31 DEBUG PooledDataSource:448 - Created connection 1123226989.
+2024-06-18 15:43:31 DEBUG insertBoard!selectKey:137 - ==>  Preparing: SELECT NVL(MAX(SEQ)+1,1) FROM EDUBOARD e
+2024-06-18 15:43:31 DEBUG insertBoard!selectKey:137 - ==> Parameters: 
+2024-06-18 15:43:31 TRACE insertBoard!selectKey:143 - <==    Columns: NVL(MAX(SEQ)+1,1)
+2024-06-18 15:43:31 TRACE insertBoard!selectKey:143 - <==        Row: 6
+2024-06-18 15:43:31 DEBUG insertBoard!selectKey:137 - <==      Total: 1
+2024-06-18 15:43:31 DEBUG insertBoard:137 - ==>  Preparing: INSERT INTO EDUBOARD e (SEQ, ID, TITLE, CONTENT, DELFLAG, CREATEAT) VALUES(?, ?, ?, ?, 'N', SYSDATE)
+2024-06-18 15:43:31 DEBUG insertBoard:137 - ==> Parameters: 6(Integer), HAPPY00(String), Insert_JUnitTest(String), Insert_JUnitTest(String)
+2024-06-18 15:43:31 DEBUG insertBoard:137 - <==    Updates: 1
+2024-06-18 15:43:31 INFO  EduBoardDaoImpl:49 - EduBoardDaoImpl updateBoard
+2024-06-18 15:43:31 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-18 15:43:31 DEBUG PooledDataSource:448 - Created connection 258737099.
+2024-06-18 15:43:31 DEBUG updateBoard:137 - ==>  Preparing: UPDATE EDUBOARD SET CONTENT = ? WHERE SEQ = ?
+2024-06-18 15:43:31 DEBUG updateBoard:137 - ==> Parameters: update_JUnitTest(String), 1(String)
+2024-06-18 15:43:31 DEBUG updateBoard:137 - <==    Updates: 1
+2024-06-18 15:43:31 INFO  EduBoardDaoImpl:57 - EduBoardDaoImpl deleteBoard
+2024-06-18 15:43:31 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-18 15:43:31 DEBUG PooledDataSource:448 - Created connection 407997647.
+2024-06-18 15:43:31 DEBUG deleteBoard:137 - ==>  Preparing: UPDATE EDUBOARD SET DELFLAG = 'Y' WHERE SEQ = ?
+2024-06-18 15:43:31 DEBUG deleteBoard:137 - ==> Parameters: 1(String)
+2024-06-18 15:43:31 DEBUG deleteBoard:137 - <==    Updates: 1
+2024-06-18 15:44:09 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-18 15:44:09 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:44:09 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:44:09 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:44:09 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:44:09 INFO  SqlSessionFactoryManager:21 - SqlSessionFactory 생성
+2024-06-18 15:44:09 INFO  EduBoardDaoImpl:33 - EduBoardDaoImpl detailSelect
+2024-06-18 15:44:09 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-18 15:44:09 DEBUG PooledDataSource:448 - Created connection 508512860.
+2024-06-18 15:44:09 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@1e4f4a5c]
+2024-06-18 15:44:09 DEBUG detailSelect:137 - ==>  Preparing: SELECT SEQ, ID, TITLE , CONTENT , DELFLAG , TO_CHAR(CREATEAT, 'YYYY-MM-DD') CREATEAT , NAME FROM EDUBOARD e JOIN EMPINFO e2 USING(ID) WHERE SEQ = ?
+2024-06-18 15:44:09 DEBUG detailSelect:137 - ==> Parameters: 1(String)
+2024-06-18 15:44:09 TRACE detailSelect:143 - <==    Columns: SEQ, ID, TITLE, CONTENT, DELFLAG, CREATEAT, NAME
+2024-06-18 15:44:09 TRACE detailSelect:143 - <==        Row: 1, HAPPY00, Query Test, update_JUnitTest, Y, 2024-06-18, HAPPY00
+2024-06-18 15:44:09 DEBUG detailSelect:137 - <==      Total: 1
+2024-06-18 15:44:09 INFO  EduBoardDaoImpl:41 - EduBoardDaoImpl insertBoard
+2024-06-18 15:44:09 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-18 15:44:09 DEBUG PooledDataSource:448 - Created connection 1731295355.
+2024-06-18 15:44:09 DEBUG insertBoard!selectKey:137 - ==>  Preparing: SELECT NVL(MAX(SEQ)+1,1) FROM EDUBOARD e
+2024-06-18 15:44:09 DEBUG insertBoard!selectKey:137 - ==> Parameters: 
+2024-06-18 15:44:09 TRACE insertBoard!selectKey:143 - <==    Columns: NVL(MAX(SEQ)+1,1)
+2024-06-18 15:44:09 TRACE insertBoard!selectKey:143 - <==        Row: 7
+2024-06-18 15:44:09 DEBUG insertBoard!selectKey:137 - <==      Total: 1
+2024-06-18 15:44:09 DEBUG insertBoard:137 - ==>  Preparing: INSERT INTO EDUBOARD e (SEQ, ID, TITLE, CONTENT, DELFLAG, CREATEAT) VALUES(?, ?, ?, ?, 'N', SYSDATE)
+2024-06-18 15:44:09 DEBUG insertBoard:137 - ==> Parameters: 7(Integer), HAPPY00(String), Insert_JUnitTest(String), Insert_JUnitTest(String)
+2024-06-18 15:44:09 DEBUG insertBoard:137 - <==    Updates: 1
+2024-06-18 15:44:09 INFO  EduBoardDaoImpl:49 - EduBoardDaoImpl updateBoard
+2024-06-18 15:44:09 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-18 15:44:09 DEBUG PooledDataSource:448 - Created connection 1705665942.
+2024-06-18 15:44:09 DEBUG updateBoard:137 - ==>  Preparing: UPDATE EDUBOARD SET CONTENT = ? WHERE SEQ = ?
+2024-06-18 15:44:09 DEBUG updateBoard:137 - ==> Parameters: update_JUnitTest(String), 1(String)
+2024-06-18 15:44:09 DEBUG updateBoard:137 - <==    Updates: 1
+2024-06-18 15:44:44 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-18 15:44:44 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:44:44 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:44:44 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:44:44 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 15:44:44 INFO  SqlSessionFactoryManager:21 - SqlSessionFactory 생성
+2024-06-18 15:44:44 INFO  EduBoardDaoImpl:33 - EduBoardDaoImpl detailSelect
+2024-06-18 15:44:44 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-18 15:44:45 DEBUG PooledDataSource:448 - Created connection 508512860.
+2024-06-18 15:44:45 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@1e4f4a5c]
+2024-06-18 15:44:45 DEBUG detailSelect:137 - ==>  Preparing: SELECT SEQ, ID, TITLE , CONTENT , DELFLAG , TO_CHAR(CREATEAT, 'YYYY-MM-DD') CREATEAT , NAME FROM EDUBOARD e JOIN EMPINFO e2 USING(ID) WHERE SEQ = ?
+2024-06-18 15:44:45 DEBUG detailSelect:137 - ==> Parameters: 1(String)
+2024-06-18 15:44:45 TRACE detailSelect:143 - <==    Columns: SEQ, ID, TITLE, CONTENT, DELFLAG, CREATEAT, NAME
+2024-06-18 15:44:45 TRACE detailSelect:143 - <==        Row: 1, HAPPY00, Query Test, update_JUnitTest, Y, 2024-06-18, HAPPY00
+2024-06-18 15:44:45 DEBUG detailSelect:137 - <==      Total: 1
+2024-06-18 15:44:45 INFO  EduBoardDaoImpl:41 - EduBoardDaoImpl insertBoard
+2024-06-18 15:44:45 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-18 15:44:45 DEBUG PooledDataSource:448 - Created connection 616412281.
+2024-06-18 15:44:45 DEBUG insertBoard!selectKey:137 - ==>  Preparing: SELECT NVL(MAX(SEQ)+1,1) FROM EDUBOARD e
+2024-06-18 15:44:45 DEBUG insertBoard!selectKey:137 - ==> Parameters: 
+2024-06-18 15:44:45 TRACE insertBoard!selectKey:143 - <==    Columns: NVL(MAX(SEQ)+1,1)
+2024-06-18 15:44:45 TRACE insertBoard!selectKey:143 - <==        Row: 8
+2024-06-18 15:44:45 DEBUG insertBoard!selectKey:137 - <==      Total: 1
+2024-06-18 15:44:45 DEBUG insertBoard:137 - ==>  Preparing: INSERT INTO EDUBOARD e (SEQ, ID, TITLE, CONTENT, DELFLAG, CREATEAT) VALUES(?, ?, ?, ?, 'N', SYSDATE)
+2024-06-18 15:44:45 DEBUG insertBoard:137 - ==> Parameters: 8(Integer), HAPPY00(String), Insert_JUnitTest(String), Insert_JUnitTest(String)
+2024-06-18 15:44:45 DEBUG insertBoard:137 - <==    Updates: 1
+2024-06-18 15:44:45 INFO  EduBoardDaoImpl:49 - EduBoardDaoImpl updateBoard
+2024-06-18 15:44:45 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-18 15:44:45 DEBUG PooledDataSource:448 - Created connection 428996455.
+2024-06-18 15:44:45 DEBUG updateBoard:137 - ==>  Preparing: UPDATE EDUBOARD SET CONTENT = ? WHERE SEQ = ?
+2024-06-18 15:44:45 DEBUG updateBoard:137 - ==> Parameters: update_JUnitTest(String), 8(String)
+2024-06-18 15:44:45 DEBUG updateBoard:137 - <==    Updates: 1
+2024-06-18 17:27:56 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-18 17:27:56 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 17:27:56 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 17:27:56 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 17:27:56 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 17:27:56 INFO  SqlSessionFactoryManager:21 - SqlSessionFactory 생성
+2024-06-18 17:27:56 INFO  EduBoardDaoImpl:33 - EduBoardDaoImpl detailSelect
+2024-06-18 17:27:57 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-18 17:27:57 DEBUG PooledDataSource:448 - Created connection 1777238524.
+2024-06-18 17:27:57 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@69ee81fc]
+2024-06-18 17:27:57 DEBUG detailSelect:137 - ==>  Preparing: SELECT SEQ, ID, TITLE , CONTENT , DELFLAG , TO_CHAR(CREATEAT, 'YYYY-MM-DD') CREATEAT , NAME FROM EDUBOARD e JOIN EMPINFO e2 USING(ID) WHERE SEQ = ?
+2024-06-18 17:27:57 DEBUG detailSelect:137 - ==> Parameters: 1(String)
+2024-06-18 17:27:57 TRACE detailSelect:143 - <==    Columns: SEQ, ID, TITLE, CONTENT, DELFLAG, CREATEAT, NAME
+2024-06-18 17:27:57 TRACE detailSelect:143 - <==        Row: 1, HAPPY00, Query Test, update_JUnitTest, Y, 2024-06-18, HAPPY00
+2024-06-18 17:27:57 DEBUG detailSelect:137 - <==      Total: 1
+2024-06-18 17:27:57 INFO  EduBoardDaoImpl:41 - EduBoardDaoImpl insertBoard
+2024-06-18 17:27:57 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-18 17:27:57 DEBUG PooledDataSource:448 - Created connection 879311295.
+2024-06-18 17:27:57 DEBUG insertBoard!selectKey:137 - ==>  Preparing: SELECT NVL(MAX(SEQ)+1,1) FROM EDUBOARD e
+2024-06-18 17:27:57 DEBUG insertBoard!selectKey:137 - ==> Parameters: 
+2024-06-18 17:27:57 TRACE insertBoard!selectKey:143 - <==    Columns: NVL(MAX(SEQ)+1,1)
+2024-06-18 17:27:57 TRACE insertBoard!selectKey:143 - <==        Row: 9
+2024-06-18 17:27:57 DEBUG insertBoard!selectKey:137 - <==      Total: 1
+2024-06-18 17:27:57 DEBUG insertBoard:137 - ==>  Preparing: INSERT INTO EDUBOARD e (SEQ, ID, TITLE, CONTENT, DELFLAG, CREATEAT) VALUES(?, ?, ?, ?, 'N', SYSDATE)
+2024-06-18 17:27:57 DEBUG insertBoard:137 - ==> Parameters: 9(Integer), HAPPY00(String), Insert_JUnitTest(String), Insert_JUnitTest(String)
+2024-06-18 17:27:57 DEBUG insertBoard:137 - <==    Updates: 1
+2024-06-18 17:27:57 INFO  EduBoardDaoImpl:49 - EduBoardDaoImpl updateBoard
+2024-06-18 17:27:57 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-18 17:27:57 DEBUG PooledDataSource:448 - Created connection 259319861.
+2024-06-18 17:27:57 DEBUG updateBoard:137 - ==>  Preparing: UPDATE EDUBOARD SET CONTENT = ? WHERE SEQ = ?
+2024-06-18 17:27:57 DEBUG updateBoard:137 - ==> Parameters: update_JUnitTest(String), 1(String)
+2024-06-18 17:27:57 DEBUG updateBoard:137 - <==    Updates: 1
+2024-06-18 17:27:57 INFO  EduBoardDaoImpl:57 - EduBoardDaoImpl deleteBoard
+2024-06-18 17:27:57 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-18 17:27:57 DEBUG PooledDataSource:448 - Created connection 1059634518.
+2024-06-18 17:27:57 DEBUG deleteBoard:137 - ==>  Preparing: UPDATE EDUBOARD SET DELFLAG = 'Y' WHERE SEQ = ?
+2024-06-18 17:27:57 DEBUG deleteBoard:137 - ==> Parameters: 1(String)
+2024-06-18 17:27:57 DEBUG deleteBoard:137 - <==    Updates: 1
+2024-06-18 17:27:57 INFO  EduBoardDaoImpl:65 - EduBoardDaoImpl multiDeleteBoard
+2024-06-18 17:27:57 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-18 17:27:57 DEBUG PooledDataSource:448 - Created connection 1380044647.
+2024-06-18 17:27:57 DEBUG multiDeleteBoard:137 - ==>  Preparing: UPDATE EDUBOARD SET DELFLAG = 'Y' WHERE SEQ IN ( ? , ? , ? )
+2024-06-18 17:27:57 DEBUG multiDeleteBoard:137 - ==> Parameters: 1(String), 2(String), 3(String)
+2024-06-18 17:27:57 DEBUG multiDeleteBoard:137 - <==    Updates: 3
+2024-06-18 18:50:47 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-18 18:50:47 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 18:50:47 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 18:50:47 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 18:50:47 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 18:50:47 INFO  SqlSessionFactoryManager:21 - SqlSessionFactory 생성
+2024-06-18 18:50:47 INFO  EduBoardDaoImpl:25 - EduBoardDaoImpl allSelect
+2024-06-18 18:50:47 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-18 18:50:47 DEBUG PooledDataSource:448 - Created connection 1848289347.
+2024-06-18 18:50:47 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@6e2aa843]
+2024-06-18 18:50:47 DEBUG allSelect:137 - ==>  Preparing: SELECT SEQ,ID ,TITLE , CONTENT , CREATEAT, DELFLAG FROM ( SELECT SEQ,ID ,TITLE , CONTENT , TO_CHAR(CREATEAT, 'YYYY-MM-DD') CREATEAT, DELFLAG , ROW_NUMBER() OVER(ORDER BY SEQ DESC) RN FROM EDUBOARD e ) WHERE RN BETWEEN ? AND ?)
+2024-06-18 18:50:47 DEBUG allSelect:137 - ==> Parameters: 1(String), 5(String)
+2024-06-18 18:51:30 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-18 18:51:30 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 18:51:30 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 18:51:30 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 18:51:30 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 18:51:30 INFO  SqlSessionFactoryManager:21 - SqlSessionFactory 생성
+2024-06-18 18:51:30 INFO  EduBoardDaoImpl:25 - EduBoardDaoImpl allSelect
+2024-06-18 18:51:30 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-18 18:51:30 DEBUG PooledDataSource:448 - Created connection 1848289347.
+2024-06-18 18:51:30 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@6e2aa843]
+2024-06-18 18:51:30 DEBUG allSelect:137 - ==>  Preparing: SELECT SEQ,ID ,TITLE , CONTENT , CREATEAT, DELFLAG FROM ( SELECT SEQ,ID ,TITLE , CONTENT , TO_CHAR(CREATEAT, 'YYYY-MM-DD') CREATEAT, DELFLAG , ROW_NUMBER() OVER(ORDER BY SEQ DESC) RN FROM EDUBOARD e ) WHERE RN BETWEEN ? AND ?)
+2024-06-18 18:51:30 DEBUG allSelect:137 - ==> Parameters: 1(String), 5(String)
+2024-06-18 19:12:57 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-18 19:12:57 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 19:12:57 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 19:12:57 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 19:12:57 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-18 19:12:57 INFO  SqlSessionFactoryManager:21 - SqlSessionFactory 생성
+2024-06-18 19:12:57 INFO  EduBoardDaoImpl:24 - EduBoardDaoImpl allSelect
+2024-06-18 19:12:57 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-18 19:12:58 DEBUG PooledDataSource:448 - Created connection 1848289347.
+2024-06-18 19:12:58 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@6e2aa843]
+2024-06-18 19:12:58 DEBUG allSelect:137 - ==>  Preparing: SELECT SEQ,ID ,TITLE , CONTENT , CREATEAT, DELFLAG FROM ( SELECT SEQ,ID ,TITLE , CONTENT , TO_CHAR(CREATEAT, 'YYYY-MM-DD') CREATEAT, DELFLAG , ROW_NUMBER() OVER(ORDER BY SEQ DESC) RN FROM EDUBOARD e ) WHERE RN BETWEEN ? AND ?)
+2024-06-18 19:12:58 DEBUG allSelect:137 - ==> Parameters: 1(String), 5(String)

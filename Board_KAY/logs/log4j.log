@@ -1,0 +1,683 @@
+2024-06-20 09:58:29 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-20 09:58:29 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 09:58:29 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 09:58:29 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 09:58:29 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 09:58:29 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 09:58:29 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 09:58:29 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 09:58:29 INFO  SqlSessionFactoryManager:21 - SqlSessionFactory 생성
+2024-06-20 09:58:29 INFO  EmpInfoDaoImpl:28 - EmpInfoDto idCheck {id=JUnitTest}
+2024-06-20 09:58:29 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-20 09:58:29 DEBUG PooledDataSource:448 - Created connection 257459516.
+2024-06-20 09:58:29 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@f58853c]
+2024-06-20 09:58:29 DEBUG idCheck:137 - ==>  Preparing: SELECT ID FROM EMPINFO e
+2024-06-20 09:58:29 DEBUG idCheck:137 - ==> Parameters: 
+2024-06-20 09:58:29 TRACE idCheck:143 - <==    Columns: ID
+2024-06-20 09:58:29 TRACE idCheck:143 - <==        Row: ADMIN
+2024-06-20 09:58:29 TRACE idCheck:143 - <==        Row: HAPPY
+2024-06-20 09:58:29 TRACE idCheck:143 - <==        Row: HAPPY00
+2024-06-20 09:58:29 TRACE idCheck:143 - <==        Row: TEST
+2024-06-20 09:58:29 TRACE idCheck:143 - <==        Row: USER
+2024-06-20 09:58:29 TRACE idCheck:143 - <==        Row: newUser
+2024-06-20 09:58:29 DEBUG idCheck:137 - <==      Total: 6
+2024-06-20 09:59:37 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-20 09:59:37 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 09:59:37 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 09:59:37 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 09:59:37 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 09:59:37 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 09:59:37 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 09:59:37 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 09:59:37 INFO  SqlSessionFactoryManager:21 - SqlSessionFactory 생성
+2024-06-20 09:59:37 INFO  EmpInfoDaoImpl:28 - EmpInfoDto idCheck {id=JUnitTest}
+2024-06-20 09:59:37 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-20 09:59:37 DEBUG PooledDataSource:448 - Created connection 257459516.
+2024-06-20 09:59:37 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@f58853c]
+2024-06-20 09:59:37 DEBUG idCheck:137 - ==>  Preparing: SELECT ID FROM EMPINFO e WHERE ID = ?
+2024-06-20 09:59:37 DEBUG idCheck:137 - ==> Parameters: JUnitTest(String)
+2024-06-20 09:59:37 DEBUG idCheck:137 - <==      Total: 0
+2024-06-20 09:59:59 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-20 09:59:59 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 09:59:59 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 09:59:59 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 09:59:59 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 09:59:59 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 09:59:59 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 09:59:59 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 09:59:59 INFO  SqlSessionFactoryManager:21 - SqlSessionFactory 생성
+2024-06-20 09:59:59 INFO  EmpInfoDaoImpl:28 - EmpInfoDto idCheck {id=JUnitTest}
+2024-06-20 09:59:59 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-20 09:59:59 DEBUG PooledDataSource:448 - Created connection 257459516.
+2024-06-20 09:59:59 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@f58853c]
+2024-06-20 09:59:59 DEBUG idCheck:137 - ==>  Preparing: SELECT ID FROM EMPINFO e WHERE ID = ?
+2024-06-20 09:59:59 DEBUG idCheck:137 - ==> Parameters: JUnitTest(String)
+2024-06-20 09:59:59 DEBUG idCheck:137 - <==      Total: 0
+2024-06-20 09:59:59 INFO  EmpInfoDaoImpl:35 - EmpInfoDto singIn {password=JUnitTest, phone=000, name=JUnitTest, id=JUnitTest}
+2024-06-20 09:59:59 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-20 09:59:59 DEBUG PooledDataSource:448 - Created connection 1070194629.
+2024-06-20 09:59:59 DEBUG singIn:137 - ==>  Preparing: INSERT INTO EMPINFO e (ID, PASSWORD, NAME, PHONE, ENABLE, AUTH) VALUES (?, ?, ?, ?, 'D', 'USER')
+2024-06-20 09:59:59 DEBUG singIn:137 - ==> Parameters: JUnitTest(String), JUnitTest(String), JUnitTest(String), 000(String)
+2024-06-20 09:59:59 DEBUG singIn:137 - <==    Updates: 1
+2024-06-20 09:59:59 INFO  EmpInfoDaoImpl:21 - EmpInfoDto login {password=JUnitTest, id=JUnitTest}
+2024-06-20 09:59:59 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-20 09:59:59 DEBUG PooledDataSource:448 - Created connection 883020319.
+2024-06-20 09:59:59 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@34a1d21f]
+2024-06-20 09:59:59 DEBUG login:137 - ==>  Preparing: SELECT ID, PASSWORD , NAME , ENABLE , AUTH FROM EMPINFO e WHERE ID = ? AND PASSWORD = ? AND ENABLE = 'Y'
+2024-06-20 09:59:59 DEBUG login:137 - ==> Parameters: JUnitTest(String), JUnitTest(String)
+2024-06-20 09:59:59 DEBUG login:137 - <==      Total: 0
+2024-06-20 10:00:36 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-20 10:00:36 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:00:36 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:00:36 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:00:36 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:00:36 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:00:36 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:00:36 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:00:36 INFO  SqlSessionFactoryManager:21 - SqlSessionFactory 생성
+2024-06-20 10:00:36 INFO  EmpInfoDaoImpl:28 - EmpInfoDto idCheck {id=JUnitTest}
+2024-06-20 10:00:36 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-20 10:00:36 DEBUG PooledDataSource:448 - Created connection 257459516.
+2024-06-20 10:00:36 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@f58853c]
+2024-06-20 10:00:36 DEBUG idCheck:137 - ==>  Preparing: SELECT ID FROM EMPINFO e WHERE ID = ?
+2024-06-20 10:00:36 DEBUG idCheck:137 - ==> Parameters: JUnitTest(String)
+2024-06-20 10:00:37 TRACE idCheck:143 - <==    Columns: ID
+2024-06-20 10:00:37 TRACE idCheck:143 - <==        Row: JUnitTest
+2024-06-20 10:00:37 DEBUG idCheck:137 - <==      Total: 1
+2024-06-20 10:01:26 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-20 10:01:26 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:01:26 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:01:26 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:01:26 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:01:26 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:01:26 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:01:26 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:01:26 INFO  SqlSessionFactoryManager:21 - SqlSessionFactory 생성
+2024-06-20 10:01:26 INFO  EmpInfoDaoImpl:28 - EmpInfoDto idCheck {id=JUnitTest}
+2024-06-20 10:01:26 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-20 10:01:27 DEBUG PooledDataSource:448 - Created connection 257459516.
+2024-06-20 10:01:27 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@f58853c]
+2024-06-20 10:01:27 DEBUG idCheck:137 - ==>  Preparing: SELECT ID FROM EMPINFO e WHERE ID = ?
+2024-06-20 10:01:27 DEBUG idCheck:137 - ==> Parameters: JUnitTest(String)
+2024-06-20 10:01:27 TRACE idCheck:143 - <==    Columns: ID
+2024-06-20 10:01:27 TRACE idCheck:143 - <==        Row: JUnitTest
+2024-06-20 10:01:27 DEBUG idCheck:137 - <==      Total: 1
+2024-06-20 10:01:53 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-20 10:01:53 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:01:53 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:01:53 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:01:53 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:01:53 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:01:53 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:01:53 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:01:53 INFO  SqlSessionFactoryManager:21 - SqlSessionFactory 생성
+2024-06-20 10:01:53 INFO  EmpInfoDaoImpl:28 - EmpInfoDto idCheck {id=JUnitTest}
+2024-06-20 10:01:53 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-20 10:01:54 DEBUG PooledDataSource:448 - Created connection 257459516.
+2024-06-20 10:01:54 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@f58853c]
+2024-06-20 10:01:54 DEBUG idCheck:137 - ==>  Preparing: SELECT ID FROM EMPINFO e WHERE ID = ?
+2024-06-20 10:01:54 DEBUG idCheck:137 - ==> Parameters: JUnitTest(String)
+2024-06-20 10:01:54 TRACE idCheck:143 - <==    Columns: ID
+2024-06-20 10:01:54 TRACE idCheck:143 - <==        Row: JUnitTest
+2024-06-20 10:01:54 DEBUG idCheck:137 - <==      Total: 1
+2024-06-20 10:02:20 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-20 10:02:20 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:02:20 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:02:20 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:02:20 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:02:20 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:02:20 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:02:20 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:02:20 INFO  SqlSessionFactoryManager:21 - SqlSessionFactory 생성
+2024-06-20 10:02:20 INFO  EmpInfoDaoImpl:28 - EmpInfoDto idCheck {id=JUnitTest}
+2024-06-20 10:02:20 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-20 10:02:21 DEBUG PooledDataSource:448 - Created connection 257459516.
+2024-06-20 10:02:21 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@f58853c]
+2024-06-20 10:02:21 DEBUG idCheck:137 - ==>  Preparing: SELECT ID FROM EMPINFO e WHERE ID = ?
+2024-06-20 10:02:21 DEBUG idCheck:137 - ==> Parameters: JUnitTest(String)
+2024-06-20 10:02:21 DEBUG idCheck:137 - <==      Total: 0
+2024-06-20 10:02:21 INFO  EmpInfoDaoImpl:35 - EmpInfoDto singIn {password=JUnitTest, phone=000, name=JUnitTest, id=JUnitTest}
+2024-06-20 10:02:21 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-20 10:02:21 DEBUG PooledDataSource:448 - Created connection 726212590.
+2024-06-20 10:02:21 DEBUG singIn:137 - ==>  Preparing: INSERT INTO EMPINFO e (ID, PASSWORD, NAME, PHONE, ENABLE, AUTH) VALUES (?, ?, ?, ?, 'D', 'USER')
+2024-06-20 10:02:21 DEBUG singIn:137 - ==> Parameters: JUnitTest(String), JUnitTest(String), JUnitTest(String), 000(String)
+2024-06-20 10:02:21 DEBUG singIn:137 - <==    Updates: 1
+2024-06-20 10:02:40 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-20 10:02:40 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:02:40 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:02:40 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:02:40 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:02:40 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:02:40 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:02:40 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:02:41 INFO  SqlSessionFactoryManager:21 - SqlSessionFactory 생성
+2024-06-20 10:02:41 INFO  EmpInfoDaoImpl:21 - EmpInfoDto login {password=JUnitTest, id=JUnitTest}
+2024-06-20 10:02:41 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-20 10:02:41 DEBUG PooledDataSource:448 - Created connection 257459516.
+2024-06-20 10:02:41 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@f58853c]
+2024-06-20 10:02:41 DEBUG login:137 - ==>  Preparing: SELECT ID, PASSWORD , NAME , ENABLE , AUTH FROM EMPINFO e WHERE ID = ? AND PASSWORD = ? AND ENABLE = 'Y'
+2024-06-20 10:02:41 DEBUG login:137 - ==> Parameters: JUnitTest(String), JUnitTest(String)
+2024-06-20 10:02:41 TRACE login:143 - <==    Columns: ID, PASSWORD, NAME, ENABLE, AUTH
+2024-06-20 10:02:41 TRACE login:143 - <==        Row: JUnitTest, JUnitTest, JUnitTest, Y, USER
+2024-06-20 10:02:41 DEBUG login:137 - <==      Total: 1
+2024-06-20 10:27:34 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-20 10:27:34 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:27:34 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:27:34 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:27:34 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:27:34 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:27:34 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:27:34 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:27:34 INFO  SqlSessionFactoryManager:21 - SqlSessionFactory 생성
+2024-06-20 10:27:34 INFO  EmpInfoDaoImpl:35 - EmpInfoDto singIn {password=JUnitTest2, filename=null, phone=000, name=JUnitTest2, id=JUnitTest}
+2024-06-20 10:27:34 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-20 10:27:34 DEBUG PooledDataSource:448 - Created connection 596910004.
+2024-06-20 10:27:34 DEBUG singIn:137 - ==>  Preparing: INSERT INTO EMPINFO e (ID, PASSWORD, NAME, PHONE, ENABLE, AUTH, FILENAME) VALUES (?, ?, ?, ?, 'D', 'USER', ?)
+2024-06-20 10:27:54 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-20 10:27:54 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:27:54 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:27:54 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:27:54 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:27:54 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:27:54 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:27:54 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:27:54 INFO  SqlSessionFactoryManager:21 - SqlSessionFactory 생성
+2024-06-20 10:27:54 INFO  EmpInfoDaoImpl:35 - EmpInfoDto singIn {password=JUnitTest2, phone=000, name=JUnitTest2, id=JUnitTest}
+2024-06-20 10:27:54 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-20 10:27:54 DEBUG PooledDataSource:448 - Created connection 596910004.
+2024-06-20 10:27:54 DEBUG singIn:137 - ==>  Preparing: INSERT INTO EMPINFO e (ID, PASSWORD, NAME, PHONE, ENABLE, AUTH, FILENAME) VALUES (?, ?, ?, ?, 'D', 'USER', ?)
+2024-06-20 10:28:41 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-20 10:28:42 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:28:42 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:28:42 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:28:42 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:28:42 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:28:42 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:28:42 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:28:42 INFO  SqlSessionFactoryManager:21 - SqlSessionFactory 생성
+2024-06-20 10:28:42 INFO  EmpInfoDaoImpl:35 - EmpInfoDto singIn {password=JUnitTest2, filename=, phone=000, name=JUnitTest2, id=JUnitTest}
+2024-06-20 10:28:42 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-20 10:28:42 DEBUG PooledDataSource:448 - Created connection 596910004.
+2024-06-20 10:28:42 DEBUG singIn:137 - ==>  Preparing: INSERT INTO EMPINFO e (ID, PASSWORD, NAME, PHONE, ENABLE, AUTH, FILENAME) VALUES (?, ?, ?, ?, 'D', 'USER', ?)
+2024-06-20 10:28:42 DEBUG singIn:137 - ==> Parameters: JUnitTest(String), JUnitTest2(String), JUnitTest2(String), 000(String), (String)
+2024-06-20 10:30:06 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-20 10:30:06 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:30:06 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:30:06 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:30:06 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:30:06 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:30:06 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:30:06 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:30:06 INFO  SqlSessionFactoryManager:21 - SqlSessionFactory 생성
+2024-06-20 10:30:06 INFO  EmpInfoDaoImpl:35 - EmpInfoDto singIn {password=JUnitTest22, filename=, phone=000, name=JUnitTest2, id=JUnitTest}
+2024-06-20 10:30:06 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-20 10:30:07 DEBUG PooledDataSource:448 - Created connection 596910004.
+2024-06-20 10:30:07 DEBUG singIn:137 - ==>  Preparing: INSERT INTO EMPINFO e (ID, PASSWORD, NAME, PHONE, ENABLE, AUTH, FILENAME) VALUES (?, ?, ?, ?, 'D', 'USER', ?)
+2024-06-20 10:30:07 DEBUG singIn:137 - ==> Parameters: JUnitTest(String), JUnitTest22(String), JUnitTest2(String), 000(String), (String)
+2024-06-20 10:34:10 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-20 10:34:10 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:34:10 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:34:10 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:34:10 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:34:10 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:34:10 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:34:10 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:34:10 INFO  SqlSessionFactoryManager:21 - SqlSessionFactory 생성
+2024-06-20 10:34:10 INFO  EmpInfoDaoImpl:35 - EmpInfoDto singIn {password=JUnitTest, filename=null, phone=000, name=JUnitTest2, id=JUnitTest2}
+2024-06-20 10:34:10 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-20 10:34:10 DEBUG PooledDataSource:448 - Created connection 596910004.
+2024-06-20 10:34:10 DEBUG singIn:137 - ==>  Preparing: INSERT INTO EMPINFO e (ID, PASSWORD, NAME, PHONE, ENABLE, AUTH, FILENAME) VALUES (?, ?, ?, ?, 'D', 'USER', ?)
+2024-06-20 10:34:10 DEBUG singIn:137 - ==> Parameters: JUnitTest2(String), JUnitTest(String), JUnitTest2(String), 000(String), null
+2024-06-20 10:34:10 DEBUG singIn:137 - <==    Updates: 1
+2024-06-20 10:34:10 INFO  EmpInfoDaoImpl:21 - EmpInfoDto login {password=JUnitTest, id=JUnitTest}
+2024-06-20 10:34:10 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-20 10:34:10 DEBUG PooledDataSource:448 - Created connection 1884231057.
+2024-06-20 10:34:10 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@704f1591]
+2024-06-20 10:34:10 DEBUG login:137 - ==>  Preparing: SELECT ID, PASSWORD , NAME , ENABLE , AUTH FROM EMPINFO e WHERE ID = ? AND PASSWORD = ? AND ENABLE = 'Y'
+2024-06-20 10:34:10 DEBUG login:137 - ==> Parameters: JUnitTest(String), JUnitTest(String)
+2024-06-20 10:34:10 TRACE login:143 - <==    Columns: ID, PASSWORD, NAME, ENABLE, AUTH
+2024-06-20 10:34:10 TRACE login:143 - <==        Row: JUnitTest, JUnitTest, JUnitTest, Y, USER
+2024-06-20 10:34:10 DEBUG login:137 - <==      Total: 1
+2024-06-20 10:35:41 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-20 10:35:41 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:35:41 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:35:41 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:35:41 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:35:41 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:35:41 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:35:41 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:35:41 INFO  SqlSessionFactoryManager:21 - SqlSessionFactory 생성
+2024-06-20 10:35:41 INFO  EmpInfoDaoImpl:35 - EmpInfoDto singIn {password=JUnitTest, filename=TEST, phone=000, name=JUnitTest2, id=JUnitTest3}
+2024-06-20 10:35:41 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-20 10:35:42 DEBUG PooledDataSource:448 - Created connection 596910004.
+2024-06-20 10:35:42 DEBUG singIn:137 - ==>  Preparing: INSERT INTO EMPINFO e (ID, PASSWORD, NAME, PHONE, ENABLE, AUTH, FILENAME) VALUES (?, ?, ?, ?, 'D', 'USER', ?)
+2024-06-20 10:35:42 DEBUG singIn:137 - ==> Parameters: JUnitTest3(String), JUnitTest(String), JUnitTest2(String), 000(String), TEST(String)
+2024-06-20 10:35:42 DEBUG singIn:137 - <==    Updates: 1
+2024-06-20 10:35:42 INFO  EmpInfoDaoImpl:21 - EmpInfoDto login {password=JUnitTest, id=JUnitTest}
+2024-06-20 10:35:42 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-20 10:35:42 DEBUG PooledDataSource:448 - Created connection 1767230265.
+2024-06-20 10:35:42 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@6955cb39]
+2024-06-20 10:35:42 DEBUG login:137 - ==>  Preparing: SELECT ID, PASSWORD , NAME , ENABLE , AUTH FROM EMPINFO e WHERE ID = ? AND PASSWORD = ? AND ENABLE = 'Y'
+2024-06-20 10:35:42 DEBUG login:137 - ==> Parameters: JUnitTest(String), JUnitTest(String)
+2024-06-20 10:35:42 TRACE login:143 - <==    Columns: ID, PASSWORD, NAME, ENABLE, AUTH
+2024-06-20 10:35:42 TRACE login:143 - <==        Row: JUnitTest, JUnitTest, JUnitTest, Y, USER
+2024-06-20 10:35:42 DEBUG login:137 - <==      Total: 1
+2024-06-20 10:57:26 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-20 10:57:26 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:57:26 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:57:26 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:57:26 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:57:26 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:57:26 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:57:26 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:57:26 INFO  SqlSessionFactoryManager:21 - SqlSessionFactory 생성
+2024-06-20 10:57:26 INFO  EduBoardDaoImpl:40 - EduBoardDaoImpl selectMyPost
+2024-06-20 10:57:26 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-20 10:57:27 DEBUG PooledDataSource:448 - Created connection 257459516.
+2024-06-20 10:57:27 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@f58853c]
+2024-06-20 10:57:27 DEBUG selectMyPost:137 - ==>  Preparing: SELECT SEQ,ID ,TITLE , CONTENT , CREATEAT, DELFLAG FROM ( SELECT SEQ,ID ,TITLE , CONTENT , TO_CHAR(CREATEAT, 'YYYY-MM-DD') CREATEAT, DELFLAG , ROW_NUMBER() OVER(ORDER BY SEQ DESC) RN FROM EDUBOARD e ) WHERE (RN BETWEEN ? AND ?) AND ID = ?
+2024-06-20 10:59:27 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-20 10:59:27 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:59:27 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:59:27 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:59:27 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:59:27 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:59:27 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:59:27 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 10:59:27 INFO  SqlSessionFactoryManager:21 - SqlSessionFactory 생성
+2024-06-20 10:59:27 INFO  EduBoardDaoImpl:40 - EduBoardDaoImpl selectMyPost
+2024-06-20 10:59:27 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-20 10:59:27 DEBUG PooledDataSource:448 - Created connection 257459516.
+2024-06-20 10:59:27 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@f58853c]
+2024-06-20 10:59:27 DEBUG selectMyPost:137 - ==>  Preparing: SELECT SEQ,ID ,TITLE , CONTENT , CREATEAT, DELFLAG FROM ( SELECT SEQ,ID ,TITLE , CONTENT , TO_CHAR(CREATEAT, 'YYYY-MM-DD') CREATEAT, DELFLAG , ROW_NUMBER() OVER(ORDER BY SEQ DESC) RN FROM EDUBOARD e ) WHERE (RN BETWEEN ? AND ?) AND ID = ?
+2024-06-20 10:59:27 DEBUG selectMyPost:137 - ==> Parameters: 1(String), 5(String), HAPPY(String)
+2024-06-20 10:59:27 DEBUG selectMyPost:137 - <==      Total: 0
+2024-06-20 10:59:27 INFO  EduBoardDaoImpl:48 - EduBoardDaoImpl countMyPost
+2024-06-20 10:59:27 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-20 10:59:27 DEBUG PooledDataSource:448 - Created connection 883020319.
+2024-06-20 10:59:27 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@34a1d21f]
+2024-06-20 10:59:27 DEBUG countMyPost:137 - ==>  Preparing: SELECT COUNT(*) FROM EDUBOARD e WHERE ID = ?
+2024-06-20 10:59:27 DEBUG countMyPost:137 - ==> Parameters: HAPPY(String)
+2024-06-20 10:59:27 TRACE countMyPost:143 - <==    Columns: COUNT(*)
+2024-06-20 10:59:27 TRACE countMyPost:143 - <==        Row: 13
+2024-06-20 10:59:27 DEBUG countMyPost:137 - <==      Total: 1
+2024-06-20 11:01:29 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-20 11:01:29 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:01:29 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:01:29 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:01:29 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:01:29 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:01:29 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:01:29 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:01:29 INFO  SqlSessionFactoryManager:21 - SqlSessionFactory 생성
+2024-06-20 11:01:29 INFO  EmpInfoDaoImpl:35 - EmpInfoDto singIn {password=JUnitTest, filename=null, phone=000, name=JUnitTest2, id=JUnitTest4}
+2024-06-20 11:01:29 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-20 11:01:29 DEBUG PooledDataSource:448 - Created connection 596910004.
+2024-06-20 11:01:29 DEBUG singIn:137 - ==>  Preparing: INSERT INTO EMPINFO e (ID, PASSWORD, NAME, PHONE, ENABLE, AUTH, FILENAME) VALUES (?, ?, ?, ?, 'D', 'USER', ?)
+2024-06-20 11:01:29 DEBUG singIn:137 - ==> Parameters: JUnitTest4(String), JUnitTest(String), JUnitTest2(String), 000(String), null
+2024-06-20 11:01:29 DEBUG singIn:137 - <==    Updates: 1
+2024-06-20 11:01:29 INFO  EmpInfoDaoImpl:21 - EmpInfoDto login {password=JUnitTest, id=JUnitTest}
+2024-06-20 11:01:29 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-20 11:01:29 DEBUG PooledDataSource:448 - Created connection 1544614339.
+2024-06-20 11:01:29 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@5c10f1c3]
+2024-06-20 11:01:29 DEBUG login:137 - ==>  Preparing: SELECT ID, PASSWORD , NAME , ENABLE , AUTH FROM EMPINFO e WHERE ID = ? AND PASSWORD = ? AND ENABLE = 'Y'
+2024-06-20 11:01:29 DEBUG login:137 - ==> Parameters: JUnitTest(String), JUnitTest(String)
+2024-06-20 11:01:29 TRACE login:143 - <==    Columns: ID, PASSWORD, NAME, ENABLE, AUTH
+2024-06-20 11:01:29 TRACE login:143 - <==        Row: JUnitTest, JUnitTest, JUnitTest, Y, USER
+2024-06-20 11:01:29 DEBUG login:137 - <==      Total: 1
+2024-06-20 11:02:08 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-20 11:02:08 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:02:08 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:02:08 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:02:08 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:02:08 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:02:08 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:02:08 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:02:08 INFO  SqlSessionFactoryManager:21 - SqlSessionFactory 생성
+2024-06-20 11:02:08 INFO  EmpInfoDaoImpl:35 - EmpInfoDto singIn {password=JUnitTest, filename=null, phone=000, name=JUnitTest2, id=JUnitTest4}
+2024-06-20 11:02:08 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-20 11:02:09 DEBUG PooledDataSource:448 - Created connection 596910004.
+2024-06-20 11:02:09 DEBUG singIn:137 - ==>  Preparing: INSERT INTO EMPINFO e (ID, PASSWORD, NAME, PHONE, ENABLE, AUTH, FILENAME) VALUES (?, ?, ?, ?, 'D', 'USER', ?)
+2024-06-20 11:02:09 DEBUG singIn:137 - ==> Parameters: JUnitTest4(String), JUnitTest(String), JUnitTest2(String), 000(String), null
+2024-06-20 11:02:19 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-20 11:02:19 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:02:19 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:02:19 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:02:19 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:02:19 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:02:19 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:02:19 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:02:19 INFO  SqlSessionFactoryManager:21 - SqlSessionFactory 생성
+2024-06-20 11:02:19 INFO  EmpInfoDaoImpl:35 - EmpInfoDto singIn {password=JUnitTest, filename=null, phone=000, name=JUnitTest2, id=JUnitTest5}
+2024-06-20 11:02:19 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-20 11:02:19 DEBUG PooledDataSource:448 - Created connection 596910004.
+2024-06-20 11:02:19 DEBUG singIn:137 - ==>  Preparing: INSERT INTO EMPINFO e (ID, PASSWORD, NAME, PHONE, ENABLE, AUTH, FILENAME) VALUES (?, ?, ?, ?, 'D', 'USER', ?)
+2024-06-20 11:02:19 DEBUG singIn:137 - ==> Parameters: JUnitTest5(String), JUnitTest(String), JUnitTest2(String), 000(String), null
+2024-06-20 11:02:19 DEBUG singIn:137 - <==    Updates: 1
+2024-06-20 11:02:19 INFO  EmpInfoDaoImpl:21 - EmpInfoDto login {password=JUnitTest, id=JUnitTest}
+2024-06-20 11:02:19 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-20 11:02:19 DEBUG PooledDataSource:448 - Created connection 109069556.
+2024-06-20 11:02:19 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@68044f4]
+2024-06-20 11:02:19 DEBUG login:137 - ==>  Preparing: SELECT ID, PASSWORD , NAME , ENABLE , AUTH FROM EMPINFO e WHERE ID = ? AND PASSWORD = ? AND ENABLE = 'Y'
+2024-06-20 11:02:19 DEBUG login:137 - ==> Parameters: JUnitTest(String), JUnitTest(String)
+2024-06-20 11:02:19 TRACE login:143 - <==    Columns: ID, PASSWORD, NAME, ENABLE, AUTH
+2024-06-20 11:02:19 TRACE login:143 - <==        Row: JUnitTest, JUnitTest, JUnitTest, Y, USER
+2024-06-20 11:02:19 DEBUG login:137 - <==      Total: 1
+2024-06-20 11:20:35 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-20 11:20:35 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:20:35 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:20:35 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:20:35 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:20:35 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:20:35 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:20:35 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:20:36 INFO  SqlSessionFactoryManager:21 - SqlSessionFactory 생성
+2024-06-20 11:20:36 INFO  EmpInfoDaoImpl:55 - EmpInfoDto selectMemberInfo
+2024-06-20 11:20:36 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-20 11:20:36 DEBUG PooledDataSource:448 - Created connection 1865859824.
+2024-06-20 11:20:36 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@6f36c2f0]
+2024-06-20 11:20:36 DEBUG selectMemberInfo:137 - ==>  Preparing: SELECT ID, NAME , PHONE , ENABLE , AUTH , FILENAME FROM ( SELECT ID, NAME , PHONE , ENABLE , AUTH, FILENAME, ROW_NUMBER() OVER(ORDER BY NAME DESC) RN FROM EMPINFO e ) WHERE RN BETWEEN ? AND ?
+2024-06-20 11:22:08 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-20 11:22:08 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:22:08 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:22:08 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:22:08 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:22:08 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:22:08 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:22:08 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:22:08 INFO  SqlSessionFactoryManager:21 - SqlSessionFactory 생성
+2024-06-20 11:22:08 INFO  EmpInfoDaoImpl:55 - EmpInfoDto selectMemberInfo
+2024-06-20 11:22:08 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-20 11:22:09 DEBUG PooledDataSource:448 - Created connection 1865859824.
+2024-06-20 11:22:09 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@6f36c2f0]
+2024-06-20 11:22:09 DEBUG selectMemberInfo:137 - ==>  Preparing: SELECT ID, NAME , PHONE , ENABLE , AUTH , FILENAME FROM ( SELECT ID, NAME , PHONE , ENABLE , AUTH, FILENAME, ROW_NUMBER() OVER(ORDER BY NAME DESC) RN FROM EMPINFO e ) WHERE RN BETWEEN ? AND ?
+2024-06-20 11:22:35 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-20 11:22:35 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:22:35 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:22:35 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:22:35 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:22:35 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:22:35 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:22:35 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:22:35 INFO  SqlSessionFactoryManager:21 - SqlSessionFactory 생성
+2024-06-20 11:22:35 INFO  EmpInfoDaoImpl:55 - EmpInfoDto selectMemberInfo
+2024-06-20 11:22:35 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-20 11:22:36 DEBUG PooledDataSource:448 - Created connection 1865859824.
+2024-06-20 11:22:36 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@6f36c2f0]
+2024-06-20 11:22:36 DEBUG selectMemberInfo:137 - ==>  Preparing: SELECT ID, NAME , PHONE , ENABLE , AUTH , FILENAME FROM ( SELECT ID, NAME , PHONE , ENABLE , AUTH, FILENAME, ROW_NUMBER() OVER(ORDER BY NAME DESC) RN FROM EMPINFO e ) WHERE RN BETWEEN ? AND ?
+2024-06-20 11:23:12 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-20 11:23:12 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:23:12 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:23:12 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:23:12 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:23:12 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:23:12 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:23:12 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:23:12 INFO  SqlSessionFactoryManager:21 - SqlSessionFactory 생성
+2024-06-20 11:23:12 INFO  EmpInfoDaoImpl:55 - EmpInfoDto selectMemberInfo
+2024-06-20 11:23:12 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-20 11:23:12 DEBUG PooledDataSource:448 - Created connection 1865859824.
+2024-06-20 11:23:12 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@6f36c2f0]
+2024-06-20 11:23:12 DEBUG selectMemberInfo:137 - ==>  Preparing: SELECT ID, NAME , PHONE , ENABLE , AUTH , FILENAME FROM ( SELECT ID, NAME , PHONE , ENABLE , AUTH, FILENAME, ROW_NUMBER() OVER(ORDER BY NAME DESC) RN FROM EMPINFO e ) WHERE RN BETWEEN ? AND ?
+2024-06-20 11:25:34 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-20 11:25:34 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:25:34 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:25:34 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:25:34 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:25:34 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:25:34 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:25:34 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:25:34 INFO  SqlSessionFactoryManager:21 - SqlSessionFactory 생성
+2024-06-20 11:25:34 INFO  EmpInfoDaoImpl:55 - EmpInfoDto selectMemberInfo
+2024-06-20 11:25:34 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-20 11:25:34 DEBUG PooledDataSource:448 - Created connection 1865859824.
+2024-06-20 11:25:34 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@6f36c2f0]
+2024-06-20 11:25:34 DEBUG selectMemberInfo:137 - ==>  Preparing: SELECT ID, NAME , PHONE , ENABLE , AUTH , FILENAME FROM ( SELECT ID, NAME , PHONE , ENABLE , AUTH, FILENAME, ROW_NUMBER() OVER(ORDER BY NAME DESC) RN FROM EMPINFO e ) WHERE RN BETWEEN ? AND ?
+2024-06-20 11:26:12 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-20 11:26:12 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:26:12 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:26:12 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:26:12 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:26:12 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:26:12 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:26:13 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:26:13 INFO  SqlSessionFactoryManager:21 - SqlSessionFactory 생성
+2024-06-20 11:26:13 INFO  EmpInfoDaoImpl:55 - EmpInfoDto selectMemberInfo
+2024-06-20 11:26:13 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-20 11:26:13 DEBUG PooledDataSource:448 - Created connection 257459516.
+2024-06-20 11:26:13 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@f58853c]
+2024-06-20 11:26:13 DEBUG selectMemberInfo:137 - ==>  Preparing: SELECT ID, NAME , PHONE , ENABLE , AUTH , FILENAME FROM ( SELECT ID, NAME , PHONE , ENABLE , AUTH, FILENAME, ROW_NUMBER() OVER(ORDER BY NAME DESC) RN FROM EMPINFO e ) WHERE RN BETWEEN ? AND ?
+2024-06-20 11:26:13 DEBUG selectMemberInfo:137 - ==> Parameters: 1(String), 5(String)
+2024-06-20 11:26:13 TRACE selectMemberInfo:143 - <==    Columns: ID, NAME, PHONE, ENABLE, AUTH, FILENAME
+2024-06-20 11:26:13 TRACE selectMemberInfo:143 - <==        Row: HAPPY, 해피, 114, N, USER, null
+2024-06-20 11:26:13 TRACE selectMemberInfo:143 - <==        Row: USER, 사용자, 110, N, USER, null
+2024-06-20 11:26:13 TRACE selectMemberInfo:143 - <==        Row: ADMIN, 관리자, 111, Y, ADMIN, null
+2024-06-20 11:26:13 TRACE selectMemberInfo:143 - <==        Row: newUser, newUser, 금천구, Y, USER, null
+2024-06-20 11:26:13 TRACE selectMemberInfo:143 - <==        Row: FILETEST, TEST, 000, D, USER, TEST
+2024-06-20 11:26:13 DEBUG selectMemberInfo:137 - <==      Total: 5
+2024-06-20 11:29:38 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-20 11:29:38 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:29:38 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:29:38 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:29:38 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:29:38 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:29:38 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:29:38 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:29:38 INFO  SqlSessionFactoryManager:21 - SqlSessionFactory 생성
+2024-06-20 11:29:38 INFO  EmpInfoDaoImpl:55 - EmpInfoDto selectMemberInfo
+2024-06-20 11:29:38 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-20 11:29:38 DEBUG PooledDataSource:448 - Created connection 257459516.
+2024-06-20 11:29:38 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@f58853c]
+2024-06-20 11:29:38 DEBUG selectMemberInfo:137 - ==>  Preparing: SELECT ID, NAME , PHONE , ENABLE , AUTH , FILENAME FROM ( SELECT ID, NAME , PHONE , ENABLE , AUTH, FILENAME, ROW_NUMBER() OVER(ORDER BY NAME DESC) RN FROM EMPINFO e ) WHERE RN BETWEEN ? AND ?
+2024-06-20 11:29:39 DEBUG selectMemberInfo:137 - ==> Parameters: 1(String), 5(String)
+2024-06-20 11:29:39 TRACE selectMemberInfo:143 - <==    Columns: ID, NAME, PHONE, ENABLE, AUTH, FILENAME
+2024-06-20 11:29:39 TRACE selectMemberInfo:143 - <==        Row: HAPPY, 해피, 114, N, USER, null
+2024-06-20 11:29:39 TRACE selectMemberInfo:143 - <==        Row: USER, 사용자, 110, N, USER, null
+2024-06-20 11:29:39 TRACE selectMemberInfo:143 - <==        Row: ADMIN, 관리자, 111, Y, ADMIN, null
+2024-06-20 11:29:39 TRACE selectMemberInfo:143 - <==        Row: newUser, newUser, 금천구, Y, USER, null
+2024-06-20 11:29:39 TRACE selectMemberInfo:143 - <==        Row: FILETEST, TEST, 000, D, USER, TEST
+2024-06-20 11:29:39 DEBUG selectMemberInfo:137 - <==      Total: 5
+2024-06-20 11:32:05 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-20 11:32:05 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:32:05 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:32:05 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:32:05 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:32:05 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:32:05 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:32:05 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 11:32:06 INFO  SqlSessionFactoryManager:21 - SqlSessionFactory 생성
+2024-06-20 11:32:06 INFO  EmpInfoDaoImpl:47 - EmpInfoDto memberSuccess HAPPY
+2024-06-20 11:32:06 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-20 11:32:06 DEBUG PooledDataSource:448 - Created connection 596910004.
+2024-06-20 11:32:06 DEBUG memberSuccess:137 - ==>  Preparing: UPDATE EMPINFO SET ENABLE = 'Y' WHERE ID = ?
+2024-06-20 11:32:06 DEBUG memberSuccess:137 - ==> Parameters: HAPPY(String)
+2024-06-20 11:32:06 DEBUG memberSuccess:137 - <==    Updates: 1
+2024-06-20 11:32:06 INFO  EmpInfoDaoImpl:63 - EmpInfoDto memberDel HAPPY
+2024-06-20 11:32:06 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-20 11:32:06 DEBUG PooledDataSource:448 - Created connection 243575009.
+2024-06-20 11:32:06 DEBUG memberDel:137 - ==>  Preparing: UPDATE EMPINFO SET ENABLE = 'N' WHERE ID = ?
+2024-06-20 11:32:06 DEBUG memberDel:137 - ==> Parameters: HAPPY(String)
+2024-06-20 11:32:06 DEBUG memberDel:137 - <==    Updates: 1
+2024-06-20 12:43:40 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-20 12:43:40 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 12:43:40 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 12:43:40 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 12:43:40 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 12:43:40 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 12:43:40 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 12:43:40 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 12:43:40 INFO  SqlSessionFactoryManager:21 - SqlSessionFactory 생성
+2024-06-20 12:43:40 INFO  EmpInfoDaoImpl:47 - EmpInfoDto memberSuccess HAPPY
+2024-06-20 12:43:40 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-20 12:43:40 DEBUG PooledDataSource:448 - Created connection 1593458942.
+2024-06-20 12:43:40 DEBUG memberSuccess:137 - ==>  Preparing: UPDATE EMPINFO SET ENABLE = 'Y' WHERE ID = ?
+2024-06-20 12:43:40 DEBUG memberSuccess:137 - ==> Parameters: HAPPY(String)
+2024-06-20 12:43:40 DEBUG memberSuccess:137 - <==    Updates: 1
+2024-06-20 12:43:40 INFO  EmpInfoDaoImpl:63 - EmpInfoDto memberDel HAPPY
+2024-06-20 12:43:40 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-20 12:43:40 DEBUG PooledDataSource:448 - Created connection 882646447.
+2024-06-20 12:43:40 DEBUG memberDel:137 - ==>  Preparing: UPDATE EMPINFO SET ENABLE = 'N' WHERE ID = ?
+2024-06-20 12:43:40 DEBUG memberDel:137 - ==> Parameters: HAPPY(String)
+2024-06-20 12:43:40 DEBUG memberDel:137 - <==    Updates: 1
+2024-06-20 12:44:04 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-20 12:44:04 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 12:44:04 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 12:44:04 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 12:44:04 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 12:44:04 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 12:44:04 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 12:44:04 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 12:44:04 INFO  SqlSessionFactoryManager:21 - SqlSessionFactory 생성
+2024-06-20 12:44:04 INFO  EmpInfoDaoImpl:39 - EmpInfoDto singIn {password=JUnitTest, filename=null, phone=null, name=JUnitTest2, id=JUnitTest6}
+2024-06-20 12:44:04 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-20 12:44:04 DEBUG PooledDataSource:448 - Created connection 1593458942.
+2024-06-20 12:44:04 DEBUG singIn:137 - ==>  Preparing: INSERT INTO EMPINFO e (ID, PASSWORD, NAME, PHONE, ENABLE, AUTH, FILENAME) VALUES (?, ?, ?, ?, 'D', 'USER', ?)
+2024-06-20 12:44:04 DEBUG singIn:137 - ==> Parameters: JUnitTest6(String), JUnitTest(String), JUnitTest2(String), null, null
+2024-06-20 12:44:04 DEBUG singIn:137 - <==    Updates: 1
+2024-06-20 12:44:04 INFO  EmpInfoDaoImpl:23 - EmpInfoDto login {password=JUnitTest, id=JUnitTest}
+2024-06-20 12:44:04 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-20 12:44:04 DEBUG PooledDataSource:448 - Created connection 109069556.
+2024-06-20 12:44:04 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@68044f4]
+2024-06-20 12:44:04 DEBUG login:137 - ==>  Preparing: SELECT ID, PASSWORD , NAME , ENABLE , AUTH FROM EMPINFO e WHERE ID = ? AND PASSWORD = ? AND ENABLE = 'Y'
+2024-06-20 12:44:04 DEBUG login:137 - ==> Parameters: JUnitTest(String), JUnitTest(String)
+2024-06-20 12:44:04 TRACE login:143 - <==    Columns: ID, PASSWORD, NAME, ENABLE, AUTH
+2024-06-20 12:44:04 TRACE login:143 - <==        Row: JUnitTest, JUnitTest, JUnitTest, Y, USER
+2024-06-20 12:44:04 DEBUG login:137 - <==      Total: 1
+2024-06-20 14:17:16 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-20 14:17:16 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 14:17:16 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 14:17:16 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 14:17:16 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 14:17:16 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 14:17:16 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 14:17:16 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 14:17:16 INFO  SqlSessionFactoryManager:21 - SqlSessionFactory 생성
+2024-06-20 14:17:16 INFO  EmpInfoDaoImpl:39 - EmpInfoDto singIn EmpInfoDto(id=new Test, password=new Test, name=new Test, phone=null, enable=null, auth=null, filename=null)
+2024-06-20 14:17:16 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-20 14:17:17 DEBUG PooledDataSource:448 - Created connection 1834361038.
+2024-06-20 14:17:17 DEBUG singIn:137 - ==>  Preparing: INSERT INTO EMPINFO e (ID, PASSWORD, NAME, PHONE, ENABLE, AUTH, FILENAME) VALUES (?, ?, ?, ?, 'D', 'USER', ?)
+2024-06-20 14:17:17 DEBUG singIn:137 - ==> Parameters: new Test(String), new Test(String), new Test(String), null, null
+2024-06-20 14:17:17 DEBUG singIn:137 - <==    Updates: 1
+2024-06-20 14:17:17 INFO  EmpInfoDaoImpl:23 - EmpInfoDto login {password=JUnitTest, id=JUnitTest}
+2024-06-20 14:17:17 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-20 14:17:17 DEBUG PooledDataSource:448 - Created connection 594858858.
+2024-06-20 14:17:17 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@2374d36a]
+2024-06-20 14:17:17 DEBUG login:137 - ==>  Preparing: SELECT ID, PASSWORD , NAME , ENABLE , AUTH FROM EMPINFO e WHERE ID = ? AND PASSWORD = ? AND ENABLE = 'Y'
+2024-06-20 14:17:17 DEBUG login:137 - ==> Parameters: JUnitTest(String), JUnitTest(String)
+2024-06-20 14:17:17 TRACE login:143 - <==    Columns: ID, PASSWORD, NAME, ENABLE, AUTH
+2024-06-20 14:17:17 TRACE login:143 - <==        Row: JUnitTest, JUnitTest, JUnitTest, Y, USER
+2024-06-20 14:17:17 DEBUG login:137 - <==      Total: 1
+2024-06-20 14:27:59 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-20 14:27:59 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 14:27:59 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 14:27:59 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 14:27:59 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 14:27:59 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 14:27:59 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 14:27:59 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 14:27:59 INFO  SqlSessionFactoryManager:21 - SqlSessionFactory 생성
+2024-06-20 14:27:59 INFO  EmpInfoDaoImpl:31 - EmpInfoDto idCheck QQQ
+2024-06-20 14:27:59 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-20 14:28:00 DEBUG PooledDataSource:448 - Created connection 1880078449.
+2024-06-20 14:28:00 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@700fb871]
+2024-06-20 14:28:00 DEBUG idCheck:137 - ==>  Preparing: SELECT ID FROM EMPINFO e WHERE ID = ?
+2024-06-20 14:28:00 DEBUG idCheck:137 - ==> Parameters: QQQ(String)
+2024-06-20 14:28:00 DEBUG idCheck:137 - <==      Total: 0
+2024-06-20 17:55:14 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-20 17:55:14 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 17:55:14 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 17:55:14 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 17:55:14 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 17:55:14 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 17:55:14 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 17:55:14 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 17:55:14 INFO  SqlSessionFactoryManager:21 - SqlSessionFactory 생성
+2024-06-20 17:55:14 INFO  EmpInfoDaoImpl:47 - EmpInfoDto memberSuccess [HAPPY, USER, JUnitTest3]
+2024-06-20 17:55:14 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-20 17:55:14 DEBUG PooledDataSource:448 - Created connection 127791068.
+2024-06-20 17:55:14 DEBUG memberSuccess:137 - ==>  Preparing: UPDATE EMPINFO SET ENABLE = 'Y' WHERE ID IN ( ? , ? , ? )
+2024-06-20 17:56:56 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-20 17:56:56 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 17:56:56 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 17:56:56 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 17:56:56 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 17:56:56 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 17:56:56 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 17:56:56 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 17:56:56 INFO  SqlSessionFactoryManager:21 - SqlSessionFactory 생성
+2024-06-20 17:56:56 INFO  EmpInfoDaoImpl:47 - EmpInfoDto memberSuccess [HAPPY, USER, JUnitTest3]
+2024-06-20 17:56:56 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-20 17:56:56 DEBUG PooledDataSource:448 - Created connection 127791068.
+2024-06-20 17:56:56 DEBUG memberSuccess:137 - ==>  Preparing: UPDATE EMPINFO SET ENABLE = 'Y' WHERE ID IN ( ? , ? , ? )
+2024-06-20 17:57:58 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-20 17:57:58 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 17:57:58 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 17:57:58 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 17:57:58 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 17:57:58 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 17:57:58 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 17:57:58 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 17:57:58 INFO  SqlSessionFactoryManager:21 - SqlSessionFactory 생성
+2024-06-20 17:57:58 INFO  EmpInfoDaoImpl:47 - EmpInfoDto memberSuccess [HAPPY, USER, JUnitTest3]
+2024-06-20 17:57:58 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-20 17:57:58 DEBUG PooledDataSource:448 - Created connection 127791068.
+2024-06-20 17:57:58 DEBUG memberSuccess:137 - ==>  Preparing: UPDATE EMPINFO SET ENABLE = 'Y' WHERE ID IN ( ? , ? , ? )
+2024-06-20 17:57:58 DEBUG memberSuccess:137 - ==> Parameters: HAPPY(String), USER(String), JUnitTest3(String)
+2024-06-20 17:57:58 DEBUG memberSuccess:137 - <==    Updates: 3
+2024-06-20 17:58:50 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-20 17:58:50 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 17:58:50 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 17:58:50 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 17:58:50 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 17:58:50 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 17:58:50 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 17:58:50 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 17:58:50 INFO  SqlSessionFactoryManager:21 - SqlSessionFactory 생성
+2024-06-20 17:58:50 INFO  EmpInfoDaoImpl:47 - EmpInfoDto memberSuccess [newUser, USER, FILETEST]
+2024-06-20 17:58:50 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-20 17:58:51 DEBUG PooledDataSource:448 - Created connection 127791068.
+2024-06-20 17:58:51 DEBUG memberSuccess:137 - ==>  Preparing: UPDATE EMPINFO SET ENABLE = 'Y' WHERE ID IN ( ? , ? , ? )
+2024-06-20 17:58:51 DEBUG memberSuccess:137 - ==> Parameters: newUser(String), USER(String), FILETEST(String)
+2024-06-20 17:58:51 DEBUG memberSuccess:137 - <==    Updates: 3
+2024-06-20 17:59:25 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-20 17:59:25 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 17:59:25 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 17:59:25 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 17:59:25 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 17:59:25 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 17:59:25 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 17:59:25 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 17:59:25 INFO  SqlSessionFactoryManager:21 - SqlSessionFactory 생성
+2024-06-20 17:59:25 INFO  EmpInfoDaoImpl:47 - EmpInfoDto memberSuccess [newUser, USER, FILETEST]
+2024-06-20 17:59:25 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-20 17:59:26 DEBUG PooledDataSource:448 - Created connection 127791068.
+2024-06-20 17:59:26 DEBUG memberSuccess:137 - ==>  Preparing: UPDATE EMPINFO SET ENABLE = 'Y' WHERE ID IN ( ? , ? , ? )
+2024-06-20 17:59:26 DEBUG memberSuccess:137 - ==> Parameters: newUser(String), USER(String), FILETEST(String)
+2024-06-20 17:59:26 DEBUG memberSuccess:137 - <==    Updates: 3
+2024-06-20 17:59:26 INFO  EmpInfoDaoImpl:70 - EmpInfoDto memberDel [newUser, USER, FILETEST]
+2024-06-20 17:59:26 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-20 17:59:26 DEBUG PooledDataSource:448 - Created connection 1135278099.
+2024-06-20 17:59:26 DEBUG memberDel:137 - ==>  Preparing: UPDATE EMPINFO SET ENABLE = 'N' WHERE ID IN ( ? , ? , ? )
+2024-06-20 17:59:26 DEBUG memberDel:137 - ==> Parameters: newUser(String), USER(String), FILETEST(String)
+2024-06-20 17:59:26 DEBUG memberDel:137 - <==    Updates: 3
+2024-06-20 19:37:31 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-20 19:37:31 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 19:37:31 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 19:37:31 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 19:37:31 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 19:37:31 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 19:37:31 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 19:37:31 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-20 19:37:31 INFO  SqlSessionFactoryManager:21 - SqlSessionFactory 생성
+2024-06-20 19:37:31 INFO  EmpInfoDaoImpl:77 - EmpInfoDto waitingMember
+2024-06-20 19:37:31 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-20 19:37:32 DEBUG PooledDataSource:448 - Created connection 1880078449.
+2024-06-20 19:37:32 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@700fb871]
+2024-06-20 19:37:32 DEBUG waitingMember:137 - ==>  Preparing: SELECT ID, NAME , PHONE , ENABLE , AUTH , FILENAME FROM EMPINFO e WHERE ENABLE = 'D'
+2024-06-20 19:37:32 DEBUG waitingMember:137 - ==> Parameters: 
+2024-06-20 19:37:32 TRACE waitingMember:143 - <==    Columns: ID, NAME, PHONE, ENABLE, AUTH, FILENAME
+2024-06-20 19:37:32 TRACE waitingMember:143 - <==        Row: JUnitTest2, JUnitTest2, 000, D, USER, null
+2024-06-20 19:37:32 TRACE waitingMember:143 - <==        Row: JUnitTest4, JUnitTest2, 000, D, USER, null
+2024-06-20 19:37:32 TRACE waitingMember:143 - <==        Row: JUnitTest5, JUnitTest2, 000, D, USER, null
+2024-06-20 19:37:32 TRACE waitingMember:143 - <==        Row: JUnitTest6, JUnitTest2, null, D, USER, null
+2024-06-20 19:37:32 DEBUG waitingMember:137 - <==      Total: 4

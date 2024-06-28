@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd" >
+<configuration>
+
+	<properties resource="properties/db.properties"/>
+	
+	<typeAliases>
+		<typeAlias type="com.min.edu.dto.EmpInfoDto" alias="EmpInfoDto"/>
+		<typeAlias type="com.min.edu.dto.EduBoardDto" alias="EduBoardDto"/>
+	</typeAliases>
+	
+	<environments default="development">
+		<environment id="development">
+			<transactionManager type="JDBC"/>
+			<dataSource type="POOLED">
+				<property name="url" value="${url}"/>
+				<property name="driver" value="${driver}"/>
+				<property name="username" value="${user}"/>
+				<property name="password" value="${password}"/>
+				<property name="poolMaximumActiveConnections" value="20" />
+				<property name="poolMaximumIdleConnections" value="20" />
+				<property name="poolMaximumCheckoutTime" value="20000" />
+			</dataSource>
+		</environment>
+	</environments>
+	
+	<mappers>
+		<mapper resource="sql/EduBoard_Statement.xml"/>
+		<mapper resource="sql/EmpInfo_Statement.xml"/>
+	</mappers>
+	
+</configuration>
