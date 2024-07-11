@@ -10,9 +10,26 @@
   
   <properties>
 		<slf4j-api>2.0.12</slf4j-api>
+		<project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
 	</properties>
 	
 	<dependencies>
+		
+		<dependency>
+		  <groupId>javax.servlet</groupId>
+		  <artifactId>javax.servlet-api</artifactId>
+		  <version>4.0.1</version>
+		  <scope>provided</scope>
+		</dependency>
+		
+		<dependency>
+		  <groupId>javax.servlet</groupId>
+		  <artifactId>javax.servlet-api</artifactId>
+		  <version>4.0.1</version>
+		  <scope>provided</scope>
+		</dependency>
+		
 		<dependency>
 		    <groupId>javax.servlet</groupId>
 		    <artifactId>jstl</artifactId>
