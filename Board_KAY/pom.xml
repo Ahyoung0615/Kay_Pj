@@ -12,15 +12,6 @@
 		<slf4j-api>2.0.12</slf4j-api>
 	</properties>
 	
-	<repositories>
-		<repository>
-			<id>local_repository</id>
-			<name>local_repository</name>
-			<url>file://${project.basedir}/repository</url>
-			<!-- C:\Users\user\.m2\repository 같은 주소 -->
-		</repository>
-	</repositories>
-	
 	<dependencies>
 		<dependency>
 		    <groupId>javax.servlet</groupId>
